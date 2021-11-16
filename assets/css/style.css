@@ -1513,7 +1513,15 @@ input.largecheckbox
 --------------------------------------------------------------*/
 .blog {
   padding: 40px 0 20px 0;
+  
 }
+/* .movieReviesBlog{
+  position:relative;
+  left: 15%;
+  margin-left:auto ;
+  margin-right: auto;
+  padding: auto;
+} */
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
