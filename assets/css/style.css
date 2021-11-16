@@ -1389,6 +1389,11 @@ width: 100%;
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
 }
+input.largecheckbox
+{
+  width: 25px;
+  height: 25px;
+}
 .contact .info-box i {
   font-size: 32px;
   color: #68A4C4;
