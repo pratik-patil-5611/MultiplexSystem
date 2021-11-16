@@ -1181,6 +1181,11 @@ section {
 .portfolio {
   padding-bottom: 60px;
 }
+.portfolio img
+{
+height: 350px;
+width: 100%;
+}
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 0 35px 0;
