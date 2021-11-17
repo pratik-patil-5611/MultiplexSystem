@@ -1,0 +1,148 @@
+.wrap
+{
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 80px;
+	margin-bottom: 200px;
+}
+
+.profile 
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+	transition: 0.4s;
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+	padding: 20px 20px;
+	position: relative;
+	background-color:white;
+}
+
+
+#profilepic
+{
+	border-radius: 50%;
+	size: 100px; 
+	width: 400px; 
+	height: 400px;
+	margin-top: 25px;
+	background-color: white;
+}
+
+#profilepic1
+{
+	border-radius: 50%;
+	size: 100px; 
+	width: 250px; 
+	height: 250px;
+	margin-top: 25px;
+	background-color: white;
+}
+
+h1, h2
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
+.info
+{
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+	margin: 25px 0;
+	min-width: 400px;
+	min-height: auto;
+	border-collapse:separate; 
+    border-spacing:0 15px; 
+}
+
+hr.hrartist
+{
+	border: 0;
+	height: 4px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #ECDBE9, #D876C6, #ECDBE9);
+	background-image: -moz-linear-gradient(left, #ECDBE9, #D876C6, #ECDBE9);
+	background-image: -ms-linear-gradient(left, #ECDBE9, #D876C6, #ECDBE9);
+	background-image: -o-linear-gradient(left, #ECDBE9, #D876C6, #ECDBE9);	
+	
+}
+
+hr.hrbollywood
+{
+	border: 0;
+	height: 4px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #ECF4F5, #51CFD3, #ECF4F5);
+	background-image: -moz-linear-gradient(left, #ECF4F5, #51CFD3, #ECF4F5);
+	background-image: -ms-linear-gradient(left, #ECF4F5, #51CFD3, #ECF4F5);
+	background-image: -o-linear-gradient(left, #ECF4F5, #51CFD3, #ECF4F5);
+}
+
+hr.hrbusiness
+{
+	border: 0;
+	height: 4px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #DBE1DC, #5EA269, #DBE1DC);
+	background-image: -moz-linear-gradient(left, #DBE1DC, #5EA269, #DBE1DC);
+	background-image: -ms-linear-gradient(left, #DBE1DC, #5EA269, #DBE1DC);
+	background-image: -o-linear-gradient(left, #DBE1DC, #5EA269, #DBE1DC);	
+}
+
+hr.hrcricket
+{
+	border: 0;
+	height: 4px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #CCEEFC, #2773C5, #CCEEFC);
+	background-image: -moz-linear-gradient(left, #CCEEFC, #2773C5, #CCEEFC);
+	background-image: -ms-linear-gradient(left, #CCEEFC, #2773C5, #CCEEFC);
+	background-image: -o-linear-gradient(left, #CCEEFC, #2773C5, #CCEEFC);	
+}
+
+hr.hrfootball
+{
+	border: 0;
+	height: 4px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #D9D9D9, #E71F19, #D9D9D9);
+	background-image: -moz-linear-gradient(left, #D9D9D9, #E71F19, #D9D9D9);
+	background-image: -ms-linear-gradient(left, #D9D9D9, #E71F19, #D9D9D9);
+	background-image: -o-linear-gradient(left, #D9D9D9, #E71F19, #D9D9D9);
+}
+
+hr.hrhollywood
+{
+	border: 0;
+	height: 4px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #DDDDE0, #151516, #DDDDE0);
+	background-image: -moz-linear-gradient(left, #DDDDE0, #151516, #DDDDE0);
+	background-image: -ms-linear-gradient(left, #DDDDE0, #151516, #DDDDE0);
+	background-image: -o-linear-gradient(left, #DDDDE0, #151516, #DDDDE0);
+}
+
+hr.hrpolitics
+{
+	border: 0;
+	height: 4px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #FEF5ED, #FE7C10, #FEF5ED);
+	background-image: -moz-linear-gradient(left, #FEF5ED, #FE7C10, #FEF5ED);
+	background-image: -ms-linear-gradient(left, #FEF5ED, #FE7C10, #FEF5ED);
+	background-image: -o-linear-gradient(left, #FEF5ED, #FE7C10, #FEF5ED);	
+}
+
+hr.hrblue
+{
+	border: 0;
+	height: 4px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #FEF5ED, #5575BF, #FEF5ED);
+	background-image: -moz-linear-gradient(left, #FEF5ED, #5575BF, #FEF5ED);
+	background-image: -ms-linear-gradient(left, #FEF5ED, #5575BF, #FEF5ED);
+	background-image: -o-linear-gradient(left, #FEF5ED, #5575BF, #FEF5ED);	
+}

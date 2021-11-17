@@ -1,0 +1,56 @@
+.wrap
+{
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 80px;
+	margin-bottom: 200px;
+}
+
+.profile 
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+	transition: 0.4s;
+	width: auto;
+	height: auto;
+	margin: 10px;
+	padding: 20px 20px;
+	position: relative;
+	background-color:#F9F8F8;
+}
+
+.info
+{
+	text-align: left;
+	margin: 25px 0;
+	min-width: 400px;
+	min-height: auto;
+	border-collapse:separate; 
+    border-spacing:0 15px; 
+}
+
+#profilepic
+{
+	border-radius: 50%;
+	size: 100px; 
+	width: 150px; 
+	height: 150px;
+	margin-top: 25px;
+}
+h1, h2
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
+hr.hrblue
+{
+	border: 0;
+	height: 4px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #E4EBFC, #6C89CD, #E4EBFC);
+	background-image: -moz-linear-gradient(left, #E4EBFC, #6C89CD, #E4EBFC);
+	background-image: -ms-linear-gradient(left, #E4EBFC, #6C89CD, #E4EBFC);
+	background-image: -o-linear-gradient(left, #E4EBFC, #6C89CD, #E4EBFC);	
+}
