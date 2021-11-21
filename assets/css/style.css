@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #a2cce3;
+  color: #56f5d5;
 }
 .navbar .dropdown ul {
   display: block;
