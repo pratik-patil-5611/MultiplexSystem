@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>LetsWatch: Create Account</title>
+
+
+    <!-- <script>    
+        function validate() {    
+            const loader=document.querySelector(".loader");
+            const submitBtn=document.querySelector(".submit-btn");
+            const name1=document.querySelector("#name");
+            const email=document.querySelector("#email");
+            const password=document.querySelector("#password");
+            const number=document.querySelector("#number");
+            const tac=document.querySelector("#terms-and-cond");
+            const notification=document.querySelector("#notification");
+            const alertBox=document.querySelector(".alert-box");
+    
+            if (name1.value.length <= 0) {    
+                alert("Name is required");    
+                fname.focus();    
+                return false;    
+            }    
+            if (lname.value.length <= 0) {    
+                alert("Last Name is required");    
+                lname.focus();    
+                return false;    
+            }    
+            if (address.value.length <= 0) {    
+                alert("Address is required");    
+                address.focus();    
+                return false;    
+            }    
+            if (gender.value.length <= 0) {    
+                alert("Gender is required");    
+                gender.focus();    
+                return false;    
+            }    
+            if (email.value.length <= 0) {    
+                alert("Email Id is required");    
+                email.focus();    
+                return false;    
+            }    
+            if (mobile.value.length <= 0) {    
+                alert("Mobile number is required");    
+                mobile.focus();    
+                return false;    
+            }    
+			if (mobile.value.length != 10) {    
+                alert("Mobile number must contain 10 digits");    
+                mobile.focus();    
+                return false;    
+            } 
+            if (course.value == "select course") {    
+                alert("Course is required");    
+                course.focus();    
+                return false;    
+            }    
+            return true;    
+        }    
+    </script>     -->
+</head>
+
+<body>
+   
+   
+
+       <!-- <% if(error=='true'){ %>
+            <h2>Error </h2>
+       <% }  %> -->
+        <% if(error){  %>
+            <div class="alert-box show"  >
+                <img class="alert-img " src="img/error.png" alt="">
+                <p  class="alert-msg"><%= errmsg %> </p>
+        
+            </div>
+
+
+        <% }  %>
+
+        
+
+      
+  
+
+    <div class="container" >
+            <h1 style="text-align: center;">LetsWatch</h1>
+
+        <div>
+            <form action="/signup" method="post" >
+            <input type="text" autocomplete="off" name="name" placeholder="name" id="name">
+            <input type="email" autocomplete="off" name="mail" placeholder="email" id="email">
+            <input type="password" autocomplete="off" name="password" placeholder="password" id="password">
+            <input type="text" autocomplete="off" id="number" name="number" id="number" placeholder="number">
+            <!-- <input type="checkbox" checked class="checkbox" id="terms-and-cond"> -->
+            <!-- <label for="terms-and-cond"> Accept  <a href="">Terms And Conditions</a>  </label> -->
+            
+            <!-- <input type="checkbox" class="checkbox" id="notification"> -->
+            <!-- <label for="notification"> Receive Upcoming Offers And Events Mails </label> -->
+            <!-- class="submit-btn" -->
+            <input type="submit" value="create account" class="submit-btn" >
+
+            </form>
+        </div>
+
+        <a class="link" href="/signin">Already have an account? log in here </a>
+
+    </div>
+</body>
+<!-- <script src="js/form.js"></script> -->
+</html>
