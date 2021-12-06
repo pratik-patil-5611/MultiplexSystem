@@ -10,4 +10,7 @@ Features-
 4. Book seats for any required seat as per plans provided.
 5. See movie reviews by renowned publishers.
 
-Technology used- HTML, CSS, JavaScript
+Technology used- HTML, CSS, JavaScript, ReactJS, NodeJS
+
+<strong>Click on image to see demo</strong><br/><br/>
+[![Watch the video](https://img.youtube.com/vi/EOKWazTM-K0/maxresdefault.jpg)](https://youtu.be/EOKWazTM-K0)</center>
