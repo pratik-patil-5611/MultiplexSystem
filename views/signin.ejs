@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>LetsWatch/Signin</title>
+</head>
+<body>
+    
+    <% if(error){  %>
+        <div class="alert-box show"  >
+            <img class="alert-img " src="img/error.png" alt="">
+            <p  class="alert-msg"><%= errmsg %> </p>
+    
+        </div>
+
+
+    <% }  %>
+
+    <div class="container" >
+            <h1 style="text-align: center;">LetsWatch</h1>
+
+        <div>
+            <form action="/signin" method="post">
+            <!-- <input type="text" autocomplete="off" name="name" placeholder="name" id="name"> -->
+            <input type="email" autocomplete="off" name="mail" placeholder="email" id="email">
+            <input type="password" autocomplete="off" name="password" placeholder="password" id="password">
+            <!-- <input type="text" autocomplete="off" id="number" name="number" id="number" placeholder="number"> -->
+            <!-- <input type="checkbox" checked class="checkbox" id="terms-and-cond"> -->
+            <!-- <label for="terms-and-cond"> Accept  <a href="">Terms And Conditions</a>  </label> -->
+            
+            <!-- <input type="checkbox" class="checkbox" id="notification"> -->
+            <!-- <label for="notification"> Receive Upcoming Offers And Events Mails </label> -->
+
+            <input type="submit" class="submit-btn" value="Login">
+
+        </form>
+        </div>
+
+        <a class="link" href="/" style="text-decoration: underline black;">No account Register here</a>
+
+    </div>
+</body>
+<script src="js/form.js"></script>
+</html>
